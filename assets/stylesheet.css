@@ -1,0 +1,47 @@
+body {
+  background-color:#f6fbff;
+  font-family: sans-serif;
+}
+
+.form-wrapper {
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 350px;
+  background-color: #171b2c;
+  font-family: sans-serif;
+  color:white;
+  border-radius: 25px;
+  padding: 0 20px;
+  box-shadow: 0 6px 20px rgba(17,26,104,.2)
+}
+
+.form-title {
+  text-align: center;
+}
+
+input {
+  border-radius: 1px;
+  padding: 0 5px;
+}
+
+.pattern {
+  font-size: 0.7rem;
+  color: #1ff2ff;
+  margin-top: 0;
+  opacity: .8;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#btn-submit {
+  width: 30%;
+  padding: 5px;
+  margin: 10px auto;
+  border-radius: 25px;
+  color: white;
+  background-color: dodgerblue;
+}
